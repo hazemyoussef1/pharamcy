@@ -1,0 +1,46 @@
+
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(79, 79, 137);
+text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+header{
+    background-color:rgb(146, 170, 189);
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header div{
+    display: flex;
+}
+h2{
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 45px;
+}
+
+.he{
+    display: flex;
+}
+footer{
+    position:relative;
+    top:100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
